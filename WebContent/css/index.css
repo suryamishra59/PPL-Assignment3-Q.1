@@ -1,0 +1,104 @@
+/**
+ * @author: Surya Deep Mishra
+ */
+@CHARSET "ISO-8859-1";
+
+body, html {
+	min-height: 100%;
+	min-width: 100%;
+	color: #fff;
+	background:
+		url("http://hdblackwallpaper.com/wallpaper/2015/07/red-white-and-black-backgrounds-6-free-wallpaper.jpg")
+		no-repeat;
+	background-size: 100% 200%;
+}
+
+.texts-parent {
+	margin-top: 2.3em;
+}
+
+.texts, textarea {
+	width: 85%;
+	height: 3em;
+	background: rgba(0, 0, 0, 0.6);
+	outline: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid white;
+	transition: all 0.4s;
+}
+
+textarea {
+	padding: 10px;
+	width: 100% !important;
+	height: auto !important;
+	transition: all 0.4s;
+}
+
+.submitBtn {
+	text-align: center;
+	width: 50%;
+	height: 3em;
+	font-size: 1.1em;
+	outline: none;
+	border: 1px solid white;
+	background: transparent;
+	transition: all 0.4s;
+}
+
+.submitBtn:HOVER, .submitBtn:FOCUS, .texts:HOVER, .texts:FOCUS, textarea:HOVER,
+	textarea:FOCUS {
+	font-size: 1.1em;
+	background: #b12121;
+	border-color: #b12121;
+	box-shadow: 0px 0px 5px 2px white;
+}
+
+.submitBtn:ACTIVE {
+	box-shadow: none;
+}
+
+::-webkit-input-placeholder {
+	color: #efefef;
+}
+
+:-moz-placeholder {
+	color: #efefef;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #efefef;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #efefef;
+}
+
+/* Glow Animation */
+
+@-webkit-keyframes expand {
+	0% { background-size: 100% 200%; }
+  	100% { background-size: 150% 200%; }
+}
+
+@-moz-keyframes expand {
+	0% { background-size: 100% 200%; }
+  	100% { background-size: 150% 200%; }
+}
+
+@-ms-keyframes expand {
+	0% { background-size: 100% 200%; }
+  	100% { background-size: 150% 200%; }
+}
+
+@-o-keyframes expand {
+	0% { background-size: 100% 200%; }
+  	100% { background-size: 150% 200%; }
+}
+
+@keyframes expand {
+	0% { background-size: 100% 200%; }
+  	100% { background-size: 150% 200%; }
+}
